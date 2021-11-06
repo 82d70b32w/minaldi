@@ -1,0 +1,56 @@
+/* Headless Vivaldi */
+@charset "UTF-8";
+
+/* Make bookmarks tab more compact */
+.bookmark-bar button {
+    margin-top: -4px;
+	padding: 1px;
+}
+
+.bookmark-bar button img, .bookmark-bar button svg.folder-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.bookmark-bar {
+    height: 16px;
+	background: transparent;
+}
+
+/* URL bar a'la blind coak when ctrl+l */
+.toolbar-mainbar > .button-toolbar > button,  .toolbar-mainbar,
+.toolbar-mainbar > .toolbar-group > .button-toolbar > button,
+.toolbar-extensions.toolbar-extensions.toolbar-extensions .button-toolbar >
+button > img {
+    overflow: hidden;
+}
+
+/* Hide toggle UI header & bottom tab bar w/ buttons */ 
+.window-buttongroup, div.button-toolbar.newtab, #tabs-container .close,
+.toolbar-tabbar > .toolbar-group > .button-toolbar.toggle-trash,
+.vivaldi, #tabs-container.bottom > .toolbar-tabbar, #header,
+.toolbar-tabbar > .button-toolbar.toggle-trash { 
+    display: none;
+	
+}
+
+/* Create own tab bar replacement */
+#tabs-container.bottom {
+    border: 0 !important;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: auto;
+    min-width: 34px;
+	opacity: .2 !important;
+}
+
+#tabs-container.bottom .tab-position {
+    width: 30px !important;
+    height: 30px !important;
+    position: unset !important;
+}
+
+#tabs-container.bottom .tab-strip > span {
+    display: inline-block;
+}
