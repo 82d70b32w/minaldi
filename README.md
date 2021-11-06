@@ -1,6 +1,6 @@
 # Minaldi
 
-Minimal custom UI for Vivaldi.
+Minimal custom UI for Vivaldi. For people who prefer more workspace, keyboard shortcuts, gestures, that is for me.
 
 ## Vivaldi installation (xbps-src)
 ```
