@@ -1,8 +1,8 @@
 # Minaldi
-
 Minimal custom UI for Vivaldi.
 
-For people who prefer shortcuts and gestures, that is for me. :)
+Full screen without any browser user interface such as toolbars and menus, that is kiosk mode by default. Optionally tabs integrated into the page, displayed in the bottom right corner. URL bar is invisible.
+
 
 ## Vivaldi installation (xbps-src)
 ```
