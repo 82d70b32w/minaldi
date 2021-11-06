@@ -1,0 +1,13 @@
+/* Bookmark Bar + Focus URL Hidden */
+@charset "UTF-8";
+
+.toolbar-mainbar > .button-toolbar > button,  .toolbar-mainbar,
+.toolbar-mainbar > .toolbar-group > .button-toolbar > button,
+.toolbar-extensions.toolbar-extensions.toolbar-extensions .button-toolbar >
+button > img {
+    overflow: hidden;
+}
+
+.bookmark-bar {
+    display: none;
+}
