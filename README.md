@@ -1,7 +1,5 @@
 # Minaldi
-Minimal custom UI for Vivaldi.
-
-Full screen, without UI elements such as toolbars or menus - that is kiosk mode by default. Tabs integrated into page and displayed in the bottom right corner optionally.
+Minimal custom UI for Vivaldi. Full screen, without UI elements such as toolbars or menus - that is kiosk mode by default. Tabs integrated into page and displayed in the bottom right corner optionally.
 
 
 ## Vivaldi installation (xbps-src)
